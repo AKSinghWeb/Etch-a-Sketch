@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2b2d42;
+}
+
+#header {
+    text-align: center;
+    margin-top: 2vh;
+    font-family: 'Brush Script std', cursive;
+    color: #ef233c
+}
+
+.container {
+    width: 360px;
+    height: 360px;
+    display: grid;
+    grid-gap: 1px;
+    background-color: #d90429;
+    border: solid 2px #d90429;
+    margin: auto;
+}
+
+.gridDiv {
+    background-color: white;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    margin: 5vh auto;
+}
+
+.btn {
+    background-color: #8d99ae;
+    color: #edf2f4;
+    border-radius: 4px;
+    border-width: 1px;
+    padding: 4px;
+    font-family: cursive;
+    font-weight: 600;
+}
+
+.btn:active {
+    transform: scale(1.2);
+}
